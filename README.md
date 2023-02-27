@@ -4,16 +4,12 @@
 
 The project here was to refactor the existing code to meet certain standards for ease of accessibility and CSS/HTML semantics. The codebase needs to follow accessibility standards so it becomes more optimized for search engines. Additionally, making the correct adjustments in semantics for ease of others who come in after us. Making a ease to read/understand code, makes it easier for any future changes. 
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
 ## Usage
+
+The following images show the updated web application and the slight changes to the appearance to follow a more sequential order. 
+
+! (assets/images/screenshot1.png) (assets/images/screenshot2.png)
+
 
 Provide instructions and examples for use. Include screenshots as needed.
 
@@ -28,9 +24,3 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 List your collaborators, if any, with links to their GitHub profiles.
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/)
