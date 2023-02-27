@@ -4,10 +4,7 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
+/* specifics for the header such as font options and text color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +12,7 @@ body {
     color: #ffffff;
 }
 
+/* text size and how the text is to be lined up in the header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,6 +22,7 @@ body {
     color: #d9dcd6;
 }
 
+/* text size and font for the navigation links */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +31,29 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
-
+/* text location for the navigation links */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* specifics for the body of the page - color in this case */
+body {
+    background-color: #d9dcd6;
+}
+
+/* color for the navigation text and no decoration(underline) */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* size for paragraph texts */
 p {
     font-size: 16px;
 }
 
+/* Photo shows intuitive work being done */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +63,26 @@ p {
     background-position: center;
 }
 
+/* Pushes text to the left side of the section */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* pushes text to the right side of the section */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Section in which major content is held in - decribing the work done */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* benefits decribed for the work the company does and section specifics*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +94,7 @@ p {
     background-color: #2589bd;
 }
 
+/* text size for the side section */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -93,6 +102,7 @@ p {
     color: #ffffff;
 }
 
+/* text size for the main content in the side section */
 .benefit-lead h3, 
 .benefit-brand h3, 
 .benefit-cost h3 {
@@ -100,6 +110,7 @@ p {
     text-align: center;
 }
 
+/* image size for the side section */
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -108,6 +119,7 @@ p {
     max-width: 150px;
 }
 
+/* section size and font specifics */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -119,12 +131,14 @@ p {
     color: #ffffff;
 }
 
+/* section image specifics */
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* section text specifics */
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -132,6 +146,7 @@ p {
     font-size: 36px;
 }
 
+/* footer text specifics */
 .footer {
     padding: 30px;
     clear: both;
@@ -139,6 +154,7 @@ p {
     text-align: center;
 }
 
+/* footer text specific for heading of footer */
 .footer h2 {
     font-size: 20px;
 }
